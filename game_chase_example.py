@@ -55,7 +55,7 @@ while running:
 
     p = ap.get_pixel(x,y)
     #debugging info as setting 0, 255, 255 did not work
-    #print p
+    print p
     if(p[0] == pr and p[1] == pg and p[2] == pb):
         #its a point!
         points = points + 1
